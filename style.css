@@ -1,0 +1,53 @@
+h1 {
+  color: blanchedalmond;
+  background-color: red;
+  text-transform: capitalize;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+p::first-letter {
+  color: yellow;
+  text-transform: lowercase;
+}
+
+p::first-line {
+  text-transform: uppercase;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+}
+
+.red-b {
+  color: red;
+}
+
+ul li ol {
+  color: darkblue;
+}
+
+#rogue {
+  color: lawngreen;
+}
+
+ul > li {
+  color: purple;
+}
+
+h1 + p {
+  text-align: center;
+  color: lightsalmon;
+}
+
+ol ul li {
+  color: darkorange;
+}
